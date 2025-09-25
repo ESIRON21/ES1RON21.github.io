@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Жучков Михаил</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-card {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        form {
+            margin-top: 30px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">Обо мне</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <h1>Свяжитесь со мной</h1>
+        <p>Я всегда открыт для новых знакомств, сотрудничества и интересных проектов. 
+        Не стесняйтесь связаться со мной любым удобным способом!</p>
+
+        <div class="contact-info">
+            <div class="contact-card">
+                <h3>📧 Электронная почта</h3>
+                <p><strong>Основная:</strong> <a href="mailto:mishazuk@gmail.com">mishazuk@gmail.com</a></p>
+                <p><strong>Учебная:</strong> <a href="mishazuk@hotmail.com">mishazuk@gmail.com</a></p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📱 Мессенджеры и соцсети</h3>
+                <p><strong>Телеграм:</strong> <a href="https://t.me/PupsikDelete">@PupsikDelete</a></p>
+                <p><strong>ВКонтакте:</strong> <a href="https://vk.com/esiron">Михаил Жучков</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/ESIRON21">ESIRON21</a></p>
+            </div>
+
+            <div class="contact-card">
+                <h3>🎓 Учебное заведение</h3>
+                <p><strong>ВУЗ:</strong> Рязанский государственный радиотехнический университет</p>
+                <p><strong>Группа:</strong> 445</p>
+                <p><strong>Факультет:</strong> Вычислительной техники</p>
+		<p><strong>Кафедра:</strong> Электронных вычислительных машин</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>🏠 Адрес</h3>
+                <p><strong>Город:</strong> Рязань</p>
+                <p><strong>Общежитие:</strong> №5, комната (засекречено)</p>
+                <p><strong>Часы для встреч:</strong> Пн-Пт, 18:00-20:00</p>
+            </div>
+        </div>
+
+        <h2>Форма обратной связи</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваш email" required>
+            <input type="text" placeholder="Тема сообщения">
+            <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+            <button type="submit">Отправить сообщение(его все-равно никто не увидит)</button>
+        </form>
+
+        <h3>📞 Экстренная связь</h3>
+        <p>Для срочных вопросов звоните: <strong>+7 (977) 123-45-67</strong> (доступен с 9:00 до 22:00)</p>
+    </div>
+</body>
+</html>
